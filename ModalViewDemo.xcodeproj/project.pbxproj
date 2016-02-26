@@ -10,11 +10,11 @@
 		82248CB91C7DE40400A9554E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82248CB81C7DE40400A9554E /* main.m */; };
 		82248CBC1C7DE40400A9554E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82248CBB1C7DE40400A9554E /* AppDelegate.m */; };
 		82248CBF1C7DE40400A9554E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82248CBE1C7DE40400A9554E /* ViewController.m */; };
-		82248CC21C7DE40400A9554E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82248CC01C7DE40400A9554E /* Main.storyboard */; };
 		82248CC41C7DE40400A9554E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82248CC31C7DE40400A9554E /* Assets.xcassets */; };
 		82248CC71C7DE40400A9554E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82248CC51C7DE40400A9554E /* LaunchScreen.storyboard */; };
 		82248CD21C7DE40400A9554E /* PopViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82248CD11C7DE40400A9554E /* PopViewTests.m */; };
 		82248CDD1C7DE40400A9554E /* PopViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82248CDC1C7DE40400A9554E /* PopViewUITests.m */; };
+		82248CED1C7DE41800A9554E /* SetNicknameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82248CEC1C7DE41800A9554E /* SetNicknameView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +35,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		82248CB41C7DE40400A9554E /* PopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82248CB41C7DE40400A9554E /* ModalViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82248CB81C7DE40400A9554E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		82248CBA1C7DE40400A9554E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		82248CBB1C7DE40400A9554E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		82248CBD1C7DE40400A9554E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		82248CBE1C7DE40400A9554E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		82248CC11C7DE40400A9554E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82248CC31C7DE40400A9554E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82248CC61C7DE40400A9554E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82248CC81C7DE40400A9554E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82248CCD1C7DE40400A9554E /* PopViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82248CCD1C7DE40400A9554E /* ModalViewDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalViewDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82248CD11C7DE40400A9554E /* PopViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopViewTests.m; sourceTree = "<group>"; };
 		82248CD31C7DE40400A9554E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82248CD81C7DE40400A9554E /* PopViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82248CD81C7DE40400A9554E /* ModalViewDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalViewDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82248CDC1C7DE40400A9554E /* PopViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopViewUITests.m; sourceTree = "<group>"; };
 		82248CDE1C7DE40400A9554E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82248CEB1C7DE41800A9554E /* SetNicknameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetNicknameView.h; sourceTree = "<group>"; };
+		82248CEC1C7DE41800A9554E /* SetNicknameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetNicknameView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +92,9 @@
 		82248CB51C7DE40400A9554E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				82248CB41C7DE40400A9554E /* PopView.app */,
-				82248CCD1C7DE40400A9554E /* PopViewTests.xctest */,
-				82248CD81C7DE40400A9554E /* PopViewUITests.xctest */,
+				82248CB41C7DE40400A9554E /* ModalViewDemo.app */,
+				82248CCD1C7DE40400A9554E /* ModalViewDemo.xctest */,
+				82248CD81C7DE40400A9554E /* ModalViewDemo.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,11 +102,11 @@
 		82248CB61C7DE40400A9554E /* PopView */ = {
 			isa = PBXGroup;
 			children = (
+				82248CEA1C7DE41800A9554E /* SetNickView */,
 				82248CBA1C7DE40400A9554E /* AppDelegate.h */,
 				82248CBB1C7DE40400A9554E /* AppDelegate.m */,
 				82248CBD1C7DE40400A9554E /* ViewController.h */,
 				82248CBE1C7DE40400A9554E /* ViewController.m */,
-				82248CC01C7DE40400A9554E /* Main.storyboard */,
 				82248CC31C7DE40400A9554E /* Assets.xcassets */,
 				82248CC51C7DE40400A9554E /* LaunchScreen.storyboard */,
 				82248CC81C7DE40400A9554E /* Info.plist */,
@@ -140,12 +141,21 @@
 			path = PopViewUITests;
 			sourceTree = "<group>";
 		};
+		82248CEA1C7DE41800A9554E /* SetNickView */ = {
+			isa = PBXGroup;
+			children = (
+				82248CEB1C7DE41800A9554E /* SetNicknameView.h */,
+				82248CEC1C7DE41800A9554E /* SetNicknameView.m */,
+			);
+			path = SetNickView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		82248CB31C7DE40400A9554E /* PopView */ = {
+		82248CB31C7DE40400A9554E /* ModalViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82248CE11C7DE40400A9554E /* Build configuration list for PBXNativeTarget "PopView" */;
+			buildConfigurationList = 82248CE11C7DE40400A9554E /* Build configuration list for PBXNativeTarget "ModalViewDemo" */;
 			buildPhases = (
 				82248CB01C7DE40400A9554E /* Sources */,
 				82248CB11C7DE40400A9554E /* Frameworks */,
@@ -155,14 +165,14 @@
 			);
 			dependencies = (
 			);
-			name = PopView;
+			name = ModalViewDemo;
 			productName = PopView;
-			productReference = 82248CB41C7DE40400A9554E /* PopView.app */;
+			productReference = 82248CB41C7DE40400A9554E /* ModalViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		82248CCC1C7DE40400A9554E /* PopViewTests */ = {
+		82248CCC1C7DE40400A9554E /* ModalViewDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82248CE41C7DE40400A9554E /* Build configuration list for PBXNativeTarget "PopViewTests" */;
+			buildConfigurationList = 82248CE41C7DE40400A9554E /* Build configuration list for PBXNativeTarget "ModalViewDemoTests" */;
 			buildPhases = (
 				82248CC91C7DE40400A9554E /* Sources */,
 				82248CCA1C7DE40400A9554E /* Frameworks */,
@@ -173,14 +183,14 @@
 			dependencies = (
 				82248CCF1C7DE40400A9554E /* PBXTargetDependency */,
 			);
-			name = PopViewTests;
+			name = ModalViewDemoTests;
 			productName = PopViewTests;
-			productReference = 82248CCD1C7DE40400A9554E /* PopViewTests.xctest */;
+			productReference = 82248CCD1C7DE40400A9554E /* ModalViewDemo.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		82248CD71C7DE40400A9554E /* PopViewUITests */ = {
+		82248CD71C7DE40400A9554E /* ModalViewDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82248CE71C7DE40400A9554E /* Build configuration list for PBXNativeTarget "PopViewUITests" */;
+			buildConfigurationList = 82248CE71C7DE40400A9554E /* Build configuration list for PBXNativeTarget "ModalViewDemoUITests" */;
 			buildPhases = (
 				82248CD41C7DE40400A9554E /* Sources */,
 				82248CD51C7DE40400A9554E /* Frameworks */,
@@ -191,9 +201,9 @@
 			dependencies = (
 				82248CDA1C7DE40400A9554E /* PBXTargetDependency */,
 			);
-			name = PopViewUITests;
+			name = ModalViewDemoUITests;
 			productName = PopViewUITests;
-			productReference = 82248CD81C7DE40400A9554E /* PopViewUITests.xctest */;
+			productReference = 82248CD81C7DE40400A9554E /* ModalViewDemo.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +228,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 82248CAF1C7DE40400A9554E /* Build configuration list for PBXProject "PopView" */;
+			buildConfigurationList = 82248CAF1C7DE40400A9554E /* Build configuration list for PBXProject "ModalViewDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,9 +241,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				82248CB31C7DE40400A9554E /* PopView */,
-				82248CCC1C7DE40400A9554E /* PopViewTests */,
-				82248CD71C7DE40400A9554E /* PopViewUITests */,
+				82248CB31C7DE40400A9554E /* ModalViewDemo */,
+				82248CCC1C7DE40400A9554E /* ModalViewDemoTests */,
+				82248CD71C7DE40400A9554E /* ModalViewDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,7 +255,6 @@
 			files = (
 				82248CC71C7DE40400A9554E /* LaunchScreen.storyboard in Resources */,
 				82248CC41C7DE40400A9554E /* Assets.xcassets in Resources */,
-				82248CC21C7DE40400A9554E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82248CBF1C7DE40400A9554E /* ViewController.m in Sources */,
+				82248CED1C7DE41800A9554E /* SetNicknameView.m in Sources */,
 				82248CBC1C7DE40400A9554E /* AppDelegate.m in Sources */,
 				82248CB91C7DE40400A9554E /* main.m in Sources */,
 			);
@@ -297,25 +307,17 @@
 /* Begin PBXTargetDependency section */
 		82248CCF1C7DE40400A9554E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 82248CB31C7DE40400A9554E /* PopView */;
+			target = 82248CB31C7DE40400A9554E /* ModalViewDemo */;
 			targetProxy = 82248CCE1C7DE40400A9554E /* PBXContainerItemProxy */;
 		};
 		82248CDA1C7DE40400A9554E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 82248CB31C7DE40400A9554E /* PopView */;
+			target = 82248CB31C7DE40400A9554E /* ModalViewDemo */;
 			targetProxy = 82248CD91C7DE40400A9554E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		82248CC01C7DE40400A9554E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				82248CC11C7DE40400A9554E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		82248CC51C7DE40400A9554E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -413,8 +415,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PopView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Caijia7.PopView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = Caijia7.ModelViewDemo;
+				PRODUCT_NAME = ModalViewDemo;
 			};
 			name = Debug;
 		};
@@ -424,8 +426,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PopView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Caijia7.PopView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = Caijia7.ModelViewDemo;
+				PRODUCT_NAME = ModalViewDemo;
 			};
 			name = Release;
 		};
@@ -436,8 +438,8 @@
 				INFOPLIST_FILE = PopViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Caijia7.PopViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopView.app/PopView";
+				PRODUCT_NAME = ModalViewDemo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModalViewDemo.app/ModalViewDemo";
 			};
 			name = Debug;
 		};
@@ -448,8 +450,8 @@
 				INFOPLIST_FILE = PopViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Caijia7.PopViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopView.app/PopView";
+				PRODUCT_NAME = ModalViewDemo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModalViewDemo.app/ModalViewDemo";
 			};
 			name = Release;
 		};
@@ -459,7 +461,7 @@
 				INFOPLIST_FILE = PopViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Caijia7.PopViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ModalViewDemo;
 				TEST_TARGET_NAME = PopView;
 				USES_XCTRUNNER = YES;
 			};
@@ -471,7 +473,7 @@
 				INFOPLIST_FILE = PopViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Caijia7.PopViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ModalViewDemo;
 				TEST_TARGET_NAME = PopView;
 				USES_XCTRUNNER = YES;
 			};
@@ -480,7 +482,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		82248CAF1C7DE40400A9554E /* Build configuration list for PBXProject "PopView" */ = {
+		82248CAF1C7DE40400A9554E /* Build configuration list for PBXProject "ModalViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82248CDF1C7DE40400A9554E /* Debug */,
@@ -489,29 +491,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82248CE11C7DE40400A9554E /* Build configuration list for PBXNativeTarget "PopView" */ = {
+		82248CE11C7DE40400A9554E /* Build configuration list for PBXNativeTarget "ModalViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82248CE21C7DE40400A9554E /* Debug */,
 				82248CE31C7DE40400A9554E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		82248CE41C7DE40400A9554E /* Build configuration list for PBXNativeTarget "PopViewTests" */ = {
+		82248CE41C7DE40400A9554E /* Build configuration list for PBXNativeTarget "ModalViewDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82248CE51C7DE40400A9554E /* Debug */,
 				82248CE61C7DE40400A9554E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		82248CE71C7DE40400A9554E /* Build configuration list for PBXNativeTarget "PopViewUITests" */ = {
+		82248CE71C7DE40400A9554E /* Build configuration list for PBXNativeTarget "ModalViewDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82248CE81C7DE40400A9554E /* Debug */,
 				82248CE91C7DE40400A9554E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

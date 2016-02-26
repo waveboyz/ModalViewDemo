@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "82248CB31C7DE40400A9554E"
-               BuildableName = "PopView.app"
-               BlueprintName = "PopView"
-               ReferencedContainer = "container:PopView.xcodeproj">
+               BuildableName = "ModalViewDemo.app"
+               BlueprintName = "ModalViewDemo"
+               ReferencedContainer = "container:ModalViewDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "82248CCC1C7DE40400A9554E"
-               BuildableName = "PopViewTests.xctest"
-               BlueprintName = "PopViewTests"
-               ReferencedContainer = "container:PopView.xcodeproj">
+               BuildableName = "ModalViewDemo.xctest"
+               BlueprintName = "ModalViewDemoTests"
+               ReferencedContainer = "container:ModalViewDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "82248CD71C7DE40400A9554E"
-               BuildableName = "PopViewUITests.xctest"
-               BlueprintName = "PopViewUITests"
-               ReferencedContainer = "container:PopView.xcodeproj">
+               BuildableName = "ModalViewDemo.xctest"
+               BlueprintName = "ModalViewDemoUITests"
+               ReferencedContainer = "container:ModalViewDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "82248CB31C7DE40400A9554E"
-            BuildableName = "PopView.app"
-            BlueprintName = "PopView"
-            ReferencedContainer = "container:PopView.xcodeproj">
+            BuildableName = "ModalViewDemo.app"
+            BlueprintName = "ModalViewDemo"
+            ReferencedContainer = "container:ModalViewDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "82248CB31C7DE40400A9554E"
-            BuildableName = "PopView.app"
-            BlueprintName = "PopView"
-            ReferencedContainer = "container:PopView.xcodeproj">
+            BuildableName = "ModalViewDemo.app"
+            BlueprintName = "ModalViewDemo"
+            ReferencedContainer = "container:ModalViewDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "82248CB31C7DE40400A9554E"
-            BuildableName = "PopView.app"
-            BlueprintName = "PopView"
-            ReferencedContainer = "container:PopView.xcodeproj">
+            BuildableName = "ModalViewDemo.app"
+            BlueprintName = "ModalViewDemo"
+            ReferencedContainer = "container:ModalViewDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
