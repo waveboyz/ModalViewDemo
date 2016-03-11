@@ -18,7 +18,10 @@
 <
     UIGestureRecognizerDelegate
 >
-
+/**
+ *  可编辑内容
+ */
+@property (nonatomic, copy) NSString *contentStr;
 @property (nonatomic, strong) UIView *centerView;
 @property (nonatomic, strong) UIView *underView;
 @property (nonatomic, assign) CGFloat padHeight;
@@ -27,7 +30,7 @@
 
 @implementation SetNicknameView
 
-- (id)initWithFrame:(CGRect)frame
+- (id)initWithFrame:(CGRect)frame andWithContentString:(NSString *)contentString;
 {
     if (self = [super initWithFrame:frame]) {
         if (DEVICE_IS_IPHONE6 || DEVICE_IS_IPHONE6PLUS) {
@@ -37,7 +40,7 @@
         }else{
             _padHeight = 100;
         }
-
+        _contentStr = contentString;
         [self setViews];
     }
     
@@ -145,6 +148,7 @@
     [UIView animateWithDuration:.25 animations:^{
         _centerView.alpha = 1;
         _underView.alpha = 0.8;
+        self.alpha = 1;
     } completion:^(BOOL finished) {
     }];
 }

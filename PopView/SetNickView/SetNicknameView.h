@@ -11,13 +11,10 @@
 typedef void (^SetNickNameBlock)();
 @interface SetNicknameView : UIView
 /**
- *  可编辑内容
- */
-@property (nonatomic, copy) NSString *contentStr;
-/**
  *  按钮触发block
  */
 @property (nonatomic, copy) SetNickNameBlock nicknameBlock;
+- (id)initWithFrame:(CGRect)frame andWithContentString:(NSString *)contentString;
 - (void)showInView:(UIViewController *)Sview;
 -(void)tappedCancel;
 
